@@ -1,0 +1,7 @@
+---
+- hosts: centos
+  sudo: true
+
+  roles:
+    - docker
+    - docker-jenkins
